@@ -1,0 +1,24 @@
+#adatok p{
+    text-align: center;
+}
+.kutya img{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+#kutyak{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:10px;
+}
+
+.kutya{
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+}
+@media only screen and (max-width: 550px) {
+    #kutyak {
+      grid-template-columns: 1fr    ;
+    }
+  }
